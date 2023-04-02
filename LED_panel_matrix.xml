@@ -1,0 +1,3485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/sp6gk/Documents/InterElcom/LED_panel_matrix/EDA/LED_panel_matrix/LED_panel_matrix.kicad_sch</source>
+    <date>wto, 19 lip 2022, 12:21:54</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LED Panel Matrix</title>
+        <company>InterElcom</company>
+        <rev>1.0</rev>
+        <date>2022-07-18</date>
+        <source>LED_panel_matrix.kicad_sch</source>
+        <comment number="1" value="Matrix display panel that can be daisy chained"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/">
+      <title_block>
+        <title>LED Matrix Display Panel</title>
+        <company>InterElcom</company>
+        <rev>1.0</rev>
+        <date>2022-07-18</date>
+        <source>Matrix.kicad_sch</source>
+        <comment number="1" value="Matrix of LEDs 13x10 RGB"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/">
+      <title_block>
+        <title>LED Panel Display, LOGIC and connectors</title>
+        <company>InterElcom</company>
+        <rev>1.0</rev>
+        <date>2022-07-18</date>
+        <source>Shift_registers.kicad_sch</source>
+        <comment number="1" value="MCU, RS485, Connectors, Shift registers"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D201">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>6068fc5b-d1b4-4054-9c62-9c86c8da5303</tstamps>
+    </comp>
+    <comp ref="D202">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>fbfcdc66-dc56-40e0-9512-6d176839f0f1</tstamps>
+    </comp>
+    <comp ref="D203">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>e8f12ec8-7066-44e7-a47e-1f3599efdd1c</tstamps>
+    </comp>
+    <comp ref="D204">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>c69d59e1-95d9-400b-9831-cd9352719945</tstamps>
+    </comp>
+    <comp ref="D205">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>87e045d2-2280-490f-9cef-b7aadf2f1298</tstamps>
+    </comp>
+    <comp ref="D206">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>65231ec9-aac4-4124-ad37-95b83af32cad</tstamps>
+    </comp>
+    <comp ref="D207">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>4388211a-14a3-48cf-914a-54f6a0a0ad04</tstamps>
+    </comp>
+    <comp ref="D208">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>1dc90cf0-2bfd-439c-81aa-5db7327ddce7</tstamps>
+    </comp>
+    <comp ref="D209">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>1c1dc32c-2aef-4097-aa9d-2e86517c3114</tstamps>
+    </comp>
+    <comp ref="D210">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>5af94c51-f342-4e4b-9362-6640f19a6239</tstamps>
+    </comp>
+    <comp ref="D211">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>0bcb76fe-f21b-47e4-bd04-b888dd477589</tstamps>
+    </comp>
+    <comp ref="D212">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>ac332c9c-a21a-47a8-a27f-0e45696f6add</tstamps>
+    </comp>
+    <comp ref="D213">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>8937f106-ce9b-4344-ba84-4c057c0f0db3</tstamps>
+    </comp>
+    <comp ref="D214">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>110e6935-f5bb-445d-8a32-42cc66887923</tstamps>
+    </comp>
+    <comp ref="D215">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>702d966b-9cf4-444d-aed8-45e188469cce</tstamps>
+    </comp>
+    <comp ref="D216">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>21b2e0be-b442-4fce-be9f-3418a21d7730</tstamps>
+    </comp>
+    <comp ref="D217">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>e78b783e-b832-4532-8dff-12e8d163ed8a</tstamps>
+    </comp>
+    <comp ref="D218">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>f01e4ef9-2911-4464-9095-1ac3f97e93c6</tstamps>
+    </comp>
+    <comp ref="D219">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>9803f184-990c-4b97-a2dc-3bac2c3b4688</tstamps>
+    </comp>
+    <comp ref="D220">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>828522ee-9c83-41c8-a5b2-8e86dbee7c04</tstamps>
+    </comp>
+    <comp ref="D221">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>ad778a21-9513-402d-bd72-08d940565765</tstamps>
+    </comp>
+    <comp ref="D222">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>d6d7d33d-92ca-4d5d-9f24-11a45f9db048</tstamps>
+    </comp>
+    <comp ref="D223">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>61a3c51c-2b6c-4c57-85ba-5fb5bbb18eb8</tstamps>
+    </comp>
+    <comp ref="D224">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>4157fc0d-5259-4cf3-87eb-af51793446a0</tstamps>
+    </comp>
+    <comp ref="D225">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>022dbb3b-0bbf-4638-b1e7-1389c2ad47bc</tstamps>
+    </comp>
+    <comp ref="D226">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>f06b45c0-6fcf-49d1-a608-f7d08b0c715d</tstamps>
+    </comp>
+    <comp ref="D227">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>8e5fa2b3-95fc-4f04-8d19-341adedb2a0e</tstamps>
+    </comp>
+    <comp ref="D228">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>3e0800db-5bdd-4c3a-8f3f-521ec31ecffa</tstamps>
+    </comp>
+    <comp ref="D229">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>d711aeb4-8ec0-4b64-bca4-834b33dcd176</tstamps>
+    </comp>
+    <comp ref="D230">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>f3678ec5-7f64-4acd-adf4-49de2d29291b</tstamps>
+    </comp>
+    <comp ref="D231">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>5c6755d8-69e8-4a27-a385-c238ca93106d</tstamps>
+    </comp>
+    <comp ref="D232">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>2cff5553-3f2d-4d55-a387-2696eacdc8c6</tstamps>
+    </comp>
+    <comp ref="D233">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>4cac2b96-9a4b-4a79-94a1-b783e4e234cc</tstamps>
+    </comp>
+    <comp ref="D234">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>ae17bcd6-3c29-4507-93c5-11f52c28af6e</tstamps>
+    </comp>
+    <comp ref="D235">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>2f663746-3fa3-4e07-b8a3-ded96df57930</tstamps>
+    </comp>
+    <comp ref="D236">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>fbf1af7f-29b7-4768-ab5c-e56436fdb825</tstamps>
+    </comp>
+    <comp ref="D237">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>8a5ce918-ed23-454c-afee-7401c9f0abae</tstamps>
+    </comp>
+    <comp ref="D238">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>d4e2237e-9f50-499b-9613-e45b5faa1bb9</tstamps>
+    </comp>
+    <comp ref="D239">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>6f32ddb5-79df-4c1b-98f7-d857b69f87f4</tstamps>
+    </comp>
+    <comp ref="D240">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>20d24396-b1b7-4a00-89ea-2bf943e135e5</tstamps>
+    </comp>
+    <comp ref="D241">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>e2e0cff1-b0e2-425b-b418-b24fbfe6d5aa</tstamps>
+    </comp>
+    <comp ref="D242">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>73f4ec8c-552e-4989-bb98-35f4a2a07008</tstamps>
+    </comp>
+    <comp ref="D243">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>9ca2ce9c-541c-4d41-bc27-c0600963dba9</tstamps>
+    </comp>
+    <comp ref="D244">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>231a3e49-93f7-4874-822a-2def8695d94b</tstamps>
+    </comp>
+    <comp ref="D245">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>1a1ea047-d9cb-446c-b294-2562ba75d362</tstamps>
+    </comp>
+    <comp ref="D246">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>b45b41fe-263b-409a-93bd-dd6ac2586742</tstamps>
+    </comp>
+    <comp ref="D247">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>f9a8a8bc-430f-40d5-9690-0bf98cdac5f2</tstamps>
+    </comp>
+    <comp ref="D248">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>919e77e4-730e-4648-a8ec-1e61338029d3</tstamps>
+    </comp>
+    <comp ref="D249">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>99f06f21-24c1-464d-88fa-3fbec479e89a</tstamps>
+    </comp>
+    <comp ref="D250">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>87e7637b-ed9d-4cb8-a948-c047064d8791</tstamps>
+    </comp>
+    <comp ref="D251">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>05684aac-5069-4558-88d0-00cb46dbb5f3</tstamps>
+    </comp>
+    <comp ref="D252">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>2fabda2e-034c-4e0a-9b19-a38ac7d62cd7</tstamps>
+    </comp>
+    <comp ref="D253">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>d0008e22-cf9c-4acc-8dbe-f63bc7b0aa33</tstamps>
+    </comp>
+    <comp ref="D254">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>14768901-8b5a-4c45-afc3-d5ed2881d8a7</tstamps>
+    </comp>
+    <comp ref="D255">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>8ae64fec-80fa-4ea4-918b-5218b9c1980a</tstamps>
+    </comp>
+    <comp ref="D256">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>e942058a-3577-4a24-8a57-4679c9d43326</tstamps>
+    </comp>
+    <comp ref="D257">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>5faf7f05-f683-43d2-a069-76ab4a37a13c</tstamps>
+    </comp>
+    <comp ref="D258">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>c9504ed7-82d0-4851-b347-7361784988b7</tstamps>
+    </comp>
+    <comp ref="D259">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>34e5f9b4-06b7-4442-994e-37aded165f55</tstamps>
+    </comp>
+    <comp ref="D260">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>0f5453d1-dd76-49b3-91f7-0d3b1f6cb763</tstamps>
+    </comp>
+    <comp ref="D261">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>2947614e-a1ec-4fa9-b3b2-eda7ec98c555</tstamps>
+    </comp>
+    <comp ref="D262">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>c3cbc897-aa84-4106-81e4-365a47320a83</tstamps>
+    </comp>
+    <comp ref="D263">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>6b0751cb-31c8-403f-bc4a-f48a4d4cde27</tstamps>
+    </comp>
+    <comp ref="D264">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>2e69b502-9f58-489c-874f-51939d363b0a</tstamps>
+    </comp>
+    <comp ref="D265">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>65e7acd7-b948-43c0-9bee-fe6c0ac3f7d0</tstamps>
+    </comp>
+    <comp ref="D266">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>e7a1b8c9-6548-4956-a907-926283f9b2db</tstamps>
+    </comp>
+    <comp ref="D267">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>6f4e43d0-7d04-4f5f-984b-aceba62db6bb</tstamps>
+    </comp>
+    <comp ref="D268">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>b9c251bb-59ba-4b80-a9b5-5b4687dad749</tstamps>
+    </comp>
+    <comp ref="D269">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>711db209-e715-4ecf-bbe7-1f60bd161ba0</tstamps>
+    </comp>
+    <comp ref="D270">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>df3b91ad-e089-4dcd-9960-26ac25b5c692</tstamps>
+    </comp>
+    <comp ref="D271">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>ade24350-f499-48e1-bd4b-2fbd3b22639a</tstamps>
+    </comp>
+    <comp ref="D272">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>279d0a64-3ebc-4717-9e1a-1d1f2fe12427</tstamps>
+    </comp>
+    <comp ref="D273">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>988875eb-9596-48dc-935b-5645703f6368</tstamps>
+    </comp>
+    <comp ref="D274">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>4b96d918-9a53-4af2-b552-4a30b65be912</tstamps>
+    </comp>
+    <comp ref="D275">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>5b47b73e-92c5-44a6-98e0-faa15b2acdba</tstamps>
+    </comp>
+    <comp ref="D276">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>f9caffcc-968a-4aed-974f-796f2a332146</tstamps>
+    </comp>
+    <comp ref="D277">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>35203ed3-b261-4939-a2ca-ec9d29ec38f5</tstamps>
+    </comp>
+    <comp ref="D278">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>a2d8e677-f530-42f6-9df0-2d0c0e85535b</tstamps>
+    </comp>
+    <comp ref="D279">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>2bf9b3f2-c97f-436a-9529-1f1b7aff5087</tstamps>
+    </comp>
+    <comp ref="D280">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>03bf8236-52ac-4f2e-8a74-c3ca1f5e9e45</tstamps>
+    </comp>
+    <comp ref="D281">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>a12b8b37-aeff-49ee-8555-87ef669f03d6</tstamps>
+    </comp>
+    <comp ref="D282">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>4908e07c-f213-4aa3-8d5a-aa9528b1067c</tstamps>
+    </comp>
+    <comp ref="D283">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>8e6a6b38-b933-4b81-a822-56f64861b3be</tstamps>
+    </comp>
+    <comp ref="D284">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>79ce31d5-0d52-4c25-b4e1-3a9a3d5f0deb</tstamps>
+    </comp>
+    <comp ref="D285">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>efb3f37e-214d-448c-bacf-dfb62ede938a</tstamps>
+    </comp>
+    <comp ref="D286">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>572f7543-2ca3-4f39-847b-a229d0e7ae45</tstamps>
+    </comp>
+    <comp ref="D287">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>71cfc4cd-358b-4800-a5d5-52e96590675d</tstamps>
+    </comp>
+    <comp ref="D288">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>27ebf6f6-89d8-474a-9127-c51d572e7254</tstamps>
+    </comp>
+    <comp ref="D289">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>828fdf91-3c0c-45ca-9e96-f400e3ce8f6c</tstamps>
+    </comp>
+    <comp ref="D290">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>7e4e24d8-72da-43b3-8b61-aed85f06d140</tstamps>
+    </comp>
+    <comp ref="D291">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>db803e0a-7a94-441b-af42-1958b9f42d2a</tstamps>
+    </comp>
+    <comp ref="D292">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>7199d984-be95-447a-8d2e-5dc036f046d1</tstamps>
+    </comp>
+    <comp ref="D293">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>cfc98e59-7180-4173-85dc-169c539a746e</tstamps>
+    </comp>
+    <comp ref="D294">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>57f4f5b2-cbbc-4d6e-a691-94b679626947</tstamps>
+    </comp>
+    <comp ref="D295">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>22c22c9b-33ff-4a6d-a38e-d1aef760cc58</tstamps>
+    </comp>
+    <comp ref="D296">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>88d295dc-5d44-4118-bbaa-5edee0312765</tstamps>
+    </comp>
+    <comp ref="D297">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>b2a1d8de-c818-4c2f-be54-114a19844fb6</tstamps>
+    </comp>
+    <comp ref="D298">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>62a4d7cd-5970-4bb3-9dc9-16764d7eb636</tstamps>
+    </comp>
+    <comp ref="D299">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>3ff68210-8302-4718-b87c-e76a8b0f87ed</tstamps>
+    </comp>
+    <comp ref="D300">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>57e36809-8ccb-482c-a76e-d80fb2220b88</tstamps>
+    </comp>
+    <comp ref="D301">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>e4a51c83-4d6e-4b71-aa92-5b87d28935c6</tstamps>
+    </comp>
+    <comp ref="D302">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>c2789459-ea27-4cc1-beb2-8f1fff7122f7</tstamps>
+    </comp>
+    <comp ref="D303">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>9c6c37ec-fc88-451a-9015-464369a4d684</tstamps>
+    </comp>
+    <comp ref="D304">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>3e9a316f-5b00-4f04-ab52-727777b8f7c3</tstamps>
+    </comp>
+    <comp ref="D305">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>76ab1315-1d8d-47fc-a26c-4aec827ec1be</tstamps>
+    </comp>
+    <comp ref="D306">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>f57a462a-c01b-420d-a4a9-3491e656f793</tstamps>
+    </comp>
+    <comp ref="D307">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>4c3090b4-1d76-4619-8efe-1f85add5e8ae</tstamps>
+    </comp>
+    <comp ref="D308">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>6535d97f-3ece-4a53-a140-cdecfe01a66c</tstamps>
+    </comp>
+    <comp ref="D309">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>849aa0d2-2dc2-4f60-86b0-cfe7863e8f4c</tstamps>
+    </comp>
+    <comp ref="D310">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>07eb5206-4c51-4fd9-9cf2-58be2102bfb7</tstamps>
+    </comp>
+    <comp ref="D311">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>4e0aa6aa-0da2-4c59-b25e-9a8a6e5bd182</tstamps>
+    </comp>
+    <comp ref="D312">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>5fea960b-c0a1-44c7-a488-10d1561376be</tstamps>
+    </comp>
+    <comp ref="D313">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>7475e44e-73ed-4543-8ac9-3f8a913cdcf3</tstamps>
+    </comp>
+    <comp ref="D314">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>acc48f29-a49b-47df-b3c9-9bd5d97bf779</tstamps>
+    </comp>
+    <comp ref="D315">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>20fd2eff-5516-4c27-ae13-b6441ee845cc</tstamps>
+    </comp>
+    <comp ref="D316">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>28728ba0-305c-43ec-b52c-58e48b7fd8e1</tstamps>
+    </comp>
+    <comp ref="D317">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>6108a017-54f3-44e1-b69c-a8aa7338aa24</tstamps>
+    </comp>
+    <comp ref="D318">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>4b5528a7-066d-4041-837c-42eacfa0cca4</tstamps>
+    </comp>
+    <comp ref="D319">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>1f897b21-935c-4c86-8a97-35dd312972d7</tstamps>
+    </comp>
+    <comp ref="D320">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>b0819ddb-276a-478f-97a5-4ebbb3b054cd</tstamps>
+    </comp>
+    <comp ref="D321">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>d26c04ce-ed89-43d4-a556-cea208322e8e</tstamps>
+    </comp>
+    <comp ref="D322">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>d728441e-8ba6-4a85-a1ec-429b6152cee1</tstamps>
+    </comp>
+    <comp ref="D323">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>dec12f67-dd98-4363-9fb2-eb74afb43613</tstamps>
+    </comp>
+    <comp ref="D324">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>33b8d127-9336-4ac7-871c-428cf8d03690</tstamps>
+    </comp>
+    <comp ref="D325">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>f014fb6c-c73f-4358-9ba1-b6c1f20273b0</tstamps>
+    </comp>
+    <comp ref="D326">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>37111f80-67aa-4a38-ab0f-e285affc814c</tstamps>
+    </comp>
+    <comp ref="D327">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>5f790419-eb50-4837-ae18-554a59f1759a</tstamps>
+    </comp>
+    <comp ref="D328">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>07a25295-11d1-4034-a069-8a04ef2bce90</tstamps>
+    </comp>
+    <comp ref="D329">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>76a1c3a3-f841-46e2-a763-9d3d9968f375</tstamps>
+    </comp>
+    <comp ref="D330">
+      <value>LED_RGB</value>
+      <footprint>IE-3535RGB:IE-3535RGB</footprint>
+      <libsource lib="" part="LED_RGB_1" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="Matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/85099e00-2781-4a69-904c-98fb35fc183a/"/>
+      <tstamps>d3bbc759-d344-4d8c-91d1-4af988520c4a</tstamps>
+    </comp>
+    <comp ref="BT301">
+      <value>CR2030</value>
+      <footprint>Battery:BatteryHolder_Keystone_1058_1x2032</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>f09a502c-cc01-4db8-9c46-5318384d89b9</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>220u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10.5</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>ae88976b-2d55-4d1c-a532-e26caebcb28d</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>220u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10.5</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>5139705e-83b4-4cc2-bef1-b64e3e1aa30f</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>a257cf8e-e63a-420b-862b-31e0b048ddb4</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>20p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>ceb9e040-6b9f-42d7-94f7-c3c311a1d594</tstamps>
+    </comp>
+    <comp ref="C305">
+      <value>20p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>aee60c9b-5ebb-4d9c-b9d8-75d5527fbdee</tstamps>
+    </comp>
+    <comp ref="C306">
+      <value>10u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>113b8896-c403-42ac-91de-8bb411672c9f</tstamps>
+    </comp>
+    <comp ref="C307">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>4529d81a-e2a1-4522-91ae-f418449946d5</tstamps>
+    </comp>
+    <comp ref="C308">
+      <value>10u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>bcfb951b-b63a-47ff-9e01-21839fa846a2</tstamps>
+    </comp>
+    <comp ref="C309">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>54280029-cda4-4187-ace5-b5d77c0cb539</tstamps>
+    </comp>
+    <comp ref="C310">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>e29d6521-6c1a-4144-be46-6f5a79987125</tstamps>
+    </comp>
+    <comp ref="C311">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>137937b7-933e-4c0e-8730-3d61c04b086a</tstamps>
+    </comp>
+    <comp ref="C312">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>bde66065-6e23-4e10-922a-33e5bbea013b</tstamps>
+    </comp>
+    <comp ref="C313">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>ab027bf0-c618-4001-8c58-e58e2611864e</tstamps>
+    </comp>
+    <comp ref="C314">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>8c00406d-8cca-4e19-93ac-599573d3e965</tstamps>
+    </comp>
+    <comp ref="C315">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>9c397c6b-c654-481b-b7fe-5229a7893180</tstamps>
+    </comp>
+    <comp ref="C316">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>3de9640d-5b1e-46f6-a169-8bfd8ab5cf24</tstamps>
+    </comp>
+    <comp ref="D331">
+      <value>SM712_SOT23</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf</datasheet>
+      <libsource lib="" part="SM712_SOT23_1" description="7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>4198cf60-4c2f-4bbb-a67d-1666ce07d06c</tstamps>
+    </comp>
+    <comp ref="D332">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>ffb0ca54-9aee-4be9-b965-8d71f463c5a9</tstamps>
+    </comp>
+    <comp ref="D333">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>8ed3e977-bf4f-4f3f-a76b-464543bb4724</tstamps>
+    </comp>
+    <comp ref="J301">
+      <value>RS485</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Right</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>80ffc795-5e37-4866-ae99-b2fd4813b15f</tstamps>
+    </comp>
+    <comp ref="J302">
+      <value>Power Input</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>5dde06c9-4b48-4701-8f7f-b381fe8634a9</tstamps>
+    </comp>
+    <comp ref="J303">
+      <value>IDC14</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical_SMD</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise" description="Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>8b8fe3be-126b-4b04-933a-259dcf444118</tstamps>
+    </comp>
+    <comp ref="J304">
+      <value>SWD</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>b2338cab-a96c-4b83-a826-50849fce9497</tstamps>
+    </comp>
+    <comp ref="J305">
+      <value>BOOT_TO/ SELECTOR</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Counter_Clockwise" description="Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>5893ba6b-304a-4712-a9d6-1787a361894e</tstamps>
+    </comp>
+    <comp ref="J306">
+      <value>UART 2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>b3655586-52f3-486d-ac97-6a254b88a88a</tstamps>
+    </comp>
+    <comp ref="J307">
+      <value>IDC14</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical_SMD</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise" description="Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>74051267-0f70-45fa-98d5-3ac0331a31f4</tstamps>
+    </comp>
+    <comp ref="J308">
+      <value>Serial_BUS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>0f87b492-df8c-4072-8112-697cf5a09015</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>2eef5f02-9875-42b3-b961-4fc656b80468</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>b8d4a2d4-8e76-4d35-b032-58688149242a</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>030da82c-5b12-470d-a5bb-e8e40015daca</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>38b694f5-7cad-44fb-a4f7-a80b31fabeb8</tstamps>
+    </comp>
+    <comp ref="R305">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>7f45f702-ff86-4ee5-ae48-053520a7dd8d</tstamps>
+    </comp>
+    <comp ref="R306">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>00deab6a-9172-4d00-9024-8b496916ac29</tstamps>
+    </comp>
+    <comp ref="R307">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>c022fa00-f5a7-4d3d-9d93-cd5f3b250806</tstamps>
+    </comp>
+    <comp ref="R308">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>c33c8d61-5388-4d62-b5d4-af3da646a099</tstamps>
+    </comp>
+    <comp ref="R309">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>045452d1-0b71-4448-aa43-c07c53b89587</tstamps>
+    </comp>
+    <comp ref="R310">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>ddfd8624-d125-4e72-b71f-92af21f2a697</tstamps>
+    </comp>
+    <comp ref="R311">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>4c0d0ffb-da24-40c6-bc9d-f7205c602d57</tstamps>
+    </comp>
+    <comp ref="R312">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>8b76a054-ffbc-4239-b3f2-6c69dc1fbbfc</tstamps>
+    </comp>
+    <comp ref="R313">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>0667299d-1d71-4296-b26c-4a5d8af1a051</tstamps>
+    </comp>
+    <comp ref="R314">
+      <value>R_red</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>107b3707-1c65-4db8-b566-c833f585be2d</tstamps>
+    </comp>
+    <comp ref="R315">
+      <value>R_green</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>e54b4729-f5b1-48d3-88f3-8639c8991c2f</tstamps>
+    </comp>
+    <comp ref="R316">
+      <value>R_blue</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>903f315a-0517-4125-9200-ffe2df6ae50c</tstamps>
+    </comp>
+    <comp ref="SW301">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>ae0e7483-966a-4b83-830d-6213226092a0</tstamps>
+    </comp>
+    <comp ref="TP301">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>b294bb11-7d5b-405f-8a34-3ca8f7fdedd1</tstamps>
+    </comp>
+    <comp ref="TP302">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>9f30f360-ae92-4a63-b4d3-ac09bf6a5ae0</tstamps>
+    </comp>
+    <comp ref="TP303">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>7fc71ec4-d7d8-4c6c-913b-cc44d4488d52</tstamps>
+    </comp>
+    <comp ref="TP304">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>d4f1053b-2d4a-44e9-9c25-28a1b6c95e37</tstamps>
+    </comp>
+    <comp ref="TP305">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>8d84a132-1cf0-479f-a416-8c90034be6fb</tstamps>
+    </comp>
+    <comp ref="TP306">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>dd37588b-32d7-4cdc-8446-cf9bfd0bfedd</tstamps>
+    </comp>
+    <comp ref="TP307">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>f90fb5ca-0558-41e3-ba2d-660d477a3bc7</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>SN65HVD11</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn65hvd11.pdf?ts=1658219086339&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD11</datasheet>
+      <libsource lib="SN65HVD11" part="SN65HVD11" description=""/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>3a0e3993-c5b3-4332-b063-f06e35901900</tstamps>
+    </comp>
+    <comp ref="U302">
+      <value>LM1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>ed9aa38f-959f-430d-811c-c9cec8097dec</tstamps>
+    </comp>
+    <comp ref="U303">
+      <value>STM32F103C8Tx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</datasheet>
+      <libsource lib="MCU_ST_STM32F1" part="STM32F103C8Tx" description="ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>570e7444-0f6a-481c-91c0-6aa9dc35881a</tstamps>
+    </comp>
+    <comp ref="U304">
+      <value>SM16206</value>
+      <footprint>Package_SO:SSOP-24_3.9x8.7mm_P0.635mm</footprint>
+      <libsource lib="SM16206" part="SM16206" description=""/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>12ed3802-b92e-4881-bbcb-e77fc5602a32</tstamps>
+    </comp>
+    <comp ref="U305">
+      <value>SM16206</value>
+      <footprint>Package_SO:SSOP-24_3.9x8.7mm_P0.635mm</footprint>
+      <libsource lib="SM16206" part="SM16206" description=""/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>f7a22f90-7f0a-4961-b2f7-97b1966a46a1</tstamps>
+    </comp>
+    <comp ref="U306">
+      <value>SM16206</value>
+      <footprint>Package_SO:SSOP-24_3.9x8.7mm_P0.635mm</footprint>
+      <libsource lib="SM16206" part="SM16206" description=""/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>eda5555f-b8f2-4119-8722-3aa744bd7225</tstamps>
+    </comp>
+    <comp ref="Y301">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_SMD_Abracon_ABM3C-4Pin_5.0x3.2mm</footprint>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="Sheetname" value="Logic"/>
+      <property name="Sheetfile" value="Shift_registers.kicad_sch"/>
+      <sheetpath names="/Logic/" tstamps="/8547d77e-ad9c-4317-bf34-28a425d3a5b4/"/>
+      <tstamps>39bd853c-6d7c-4076-a255-409625dd6384</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="LED_RGB_1">
+      <description>RGB LED, 6 pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RGB_1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="GK" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="RA" type="passive"/>
+        <pin num="5" name="GA" type="passive"/>
+        <pin num="6" name="BA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SM712_SOT23_1">
+      <description>7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23</description>
+      <docs>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">SM712_SOT23_1</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="common" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Counter_Clockwise">
+      <description>Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise">
+      <description>Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F1" part="STM32F103C8Tx">
+      <description>ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F103C8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PD0" type="input"/>
+        <pin num="6" name="PD1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="bidirectional"/>
+        <pin num="11" name="PA1" type="bidirectional"/>
+        <pin num="12" name="PA2" type="bidirectional"/>
+        <pin num="13" name="PA3" type="bidirectional"/>
+        <pin num="14" name="PA4" type="bidirectional"/>
+        <pin num="15" name="PA5" type="bidirectional"/>
+        <pin num="16" name="PA6" type="bidirectional"/>
+        <pin num="17" name="PA7" type="bidirectional"/>
+        <pin num="18" name="PB0" type="bidirectional"/>
+        <pin num="19" name="PB1" type="bidirectional"/>
+        <pin num="20" name="PB2" type="bidirectional"/>
+        <pin num="21" name="PB10" type="bidirectional"/>
+        <pin num="22" name="PB11" type="bidirectional"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA8" type="bidirectional"/>
+        <pin num="30" name="PA9" type="bidirectional"/>
+        <pin num="31" name="PA10" type="bidirectional"/>
+        <pin num="32" name="PA11" type="bidirectional"/>
+        <pin num="33" name="PA12" type="bidirectional"/>
+        <pin num="34" name="PA13" type="bidirectional"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14" type="bidirectional"/>
+        <pin num="38" name="PA15" type="bidirectional"/>
+        <pin num="39" name="PB3" type="bidirectional"/>
+        <pin num="40" name="PB4" type="bidirectional"/>
+        <pin num="41" name="PB5" type="bidirectional"/>
+        <pin num="42" name="PB6" type="bidirectional"/>
+        <pin num="43" name="PB7" type="bidirectional"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="bidirectional"/>
+        <pin num="46" name="PB9" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117-3.3">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117-3.3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SM16206" part="SM16206">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SM16206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="SDI" type="input"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="LE" type="input"/>
+        <pin num="5" name="OUT0" type="output"/>
+        <pin num="6" name="OUT1" type="output"/>
+        <pin num="7" name="OUT2" type="output"/>
+        <pin num="8" name="OUT3" type="output"/>
+        <pin num="9" name="OUT4" type="output"/>
+        <pin num="10" name="OUT5" type="output"/>
+        <pin num="11" name="OUT6" type="output"/>
+        <pin num="12" name="OUT7" type="output"/>
+        <pin num="13" name="OUT8" type="output"/>
+        <pin num="14" name="OUT9" type="output"/>
+        <pin num="15" name="OUT10" type="output"/>
+        <pin num="16" name="OUT11" type="output"/>
+        <pin num="17" name="OUT12" type="output"/>
+        <pin num="18" name="OUT13" type="output"/>
+        <pin num="19" name="OUT14" type="output"/>
+        <pin num="20" name="OUT15" type="output"/>
+        <pin num="21" name="~{OE}" type="input"/>
+        <pin num="22" name="SDO" type="output"/>
+        <pin num="23" name="R-EXT" type="input"/>
+        <pin num="24" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SN65HVD11" part="SN65HVD11">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN65HVD11</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R" type="output"/>
+        <pin num="2" name="~{RE}" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="D" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32F1">
+      <uri>/usr/share/kicad/symbols//MCU_ST_STM32F1.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SM16206">
+      <uri>/home/sp6gk/Documents/InterElcom/LED_panel_matrix/EDA/Libraries/SM16206.kicad_sym</uri>
+    </library>
+    <library logical="SN65HVD11">
+      <uri>/home/sp6gk/Documents/InterElcom/LED_panel_matrix/EDA/Libraries/SN65HVD11.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C307" pin="1" pintype="passive"/>
+      <node ref="C308" pin="1" pintype="passive"/>
+      <node ref="C309" pin="1" pintype="passive"/>
+      <node ref="C310" pin="1" pintype="passive"/>
+      <node ref="C311" pin="1" pintype="passive"/>
+      <node ref="C312" pin="1" pintype="passive"/>
+      <node ref="C313" pin="1" pintype="passive"/>
+      <node ref="J304" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J305" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J305" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+      <node ref="R305" pin="1" pintype="passive"/>
+      <node ref="R309" pin="1" pintype="passive"/>
+      <node ref="TP302" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U301" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U302" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U303" pin="24" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U303" pin="36" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U303" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U303" pin="9" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="C306" pin="1" pintype="passive"/>
+      <node ref="C314" pin="1" pintype="passive"/>
+      <node ref="C315" pin="1" pintype="passive"/>
+      <node ref="C316" pin="1" pintype="passive"/>
+      <node ref="J302" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J302" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TP301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U302" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U304" pin="24" pinfunction="VDD" pintype="input"/>
+      <node ref="U305" pin="24" pinfunction="VDD" pintype="input"/>
+      <node ref="U306" pin="24" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="3" name="/Logic/A">
+      <node ref="D331" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J301" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R306" pin="2" pintype="passive"/>
+      <node ref="R308" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Logic/B">
+      <node ref="D331" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J301" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="R306" pin="1" pintype="passive"/>
+      <node ref="R307" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Logic/B_Row0">
+      <node ref="D201" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D202" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D203" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D204" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D205" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D206" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D207" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D208" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D209" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D210" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="5" pinfunction="OUT0" pintype="output"/>
+    </net>
+    <net code="6" name="/Logic/B_Row1">
+      <node ref="D211" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D212" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D213" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D214" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D215" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D216" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D217" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D218" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D219" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D220" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="7" name="/Logic/B_Row2">
+      <node ref="D221" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D222" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D223" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D224" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D225" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D226" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D227" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D228" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D229" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D230" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="7" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="8" name="/Logic/B_Row3">
+      <node ref="D231" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D232" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D233" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D234" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D235" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D236" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D237" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D238" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D239" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D240" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="8" pinfunction="OUT3" pintype="output"/>
+    </net>
+    <net code="9" name="/Logic/B_Row4">
+      <node ref="D241" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D242" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D243" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D244" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D245" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D246" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D247" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D248" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D249" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D250" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="9" pinfunction="OUT4" pintype="output"/>
+    </net>
+    <net code="10" name="/Logic/B_Row5">
+      <node ref="D251" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D252" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D253" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D254" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D255" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D256" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D257" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D258" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D259" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D260" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="10" pinfunction="OUT5" pintype="output"/>
+    </net>
+    <net code="11" name="/Logic/B_Row6">
+      <node ref="D261" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D262" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D263" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D264" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D265" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D266" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D267" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D268" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D269" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D270" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="11" pinfunction="OUT6" pintype="output"/>
+    </net>
+    <net code="12" name="/Logic/B_Row7">
+      <node ref="D271" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D272" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D273" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D274" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D275" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D276" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D277" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D278" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D279" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D280" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="12" pinfunction="OUT7" pintype="output"/>
+    </net>
+    <net code="13" name="/Logic/B_Row8">
+      <node ref="D281" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D282" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D283" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D284" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D285" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D286" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D287" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D288" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D289" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D290" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="13" pinfunction="OUT8" pintype="output"/>
+    </net>
+    <net code="14" name="/Logic/B_Row9">
+      <node ref="D291" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D292" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D293" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D294" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D295" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D296" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D297" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D298" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D299" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D300" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="14" pinfunction="OUT9" pintype="output"/>
+    </net>
+    <net code="15" name="/Logic/B_Row10">
+      <node ref="D301" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D302" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D303" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D304" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D305" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D306" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D307" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D308" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D309" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D310" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="15" pinfunction="OUT10" pintype="output"/>
+    </net>
+    <net code="16" name="/Logic/B_Row11">
+      <node ref="D311" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D312" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D313" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D314" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D315" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D316" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D317" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D318" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D319" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D320" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="16" pinfunction="OUT11" pintype="output"/>
+    </net>
+    <net code="17" name="/Logic/B_Row12">
+      <node ref="D321" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D322" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D323" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D324" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D325" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D326" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D327" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D328" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D329" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="D330" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="U306" pin="17" pinfunction="OUT12" pintype="output"/>
+    </net>
+    <net code="18" name="/Logic/Col0">
+      <node ref="D201" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D201" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D201" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D211" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D211" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D211" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D221" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D221" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D221" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D231" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D231" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D231" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D241" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D241" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D241" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D251" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D251" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D251" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D261" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D261" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D261" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D271" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D271" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D271" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D281" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D281" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D281" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D291" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D291" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D291" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D301" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D301" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D301" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D311" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D311" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D311" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D321" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D321" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D321" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J307" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U303" pin="40" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Logic/Col1">
+      <node ref="D202" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D202" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D202" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D212" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D212" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D212" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D222" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D222" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D222" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D232" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D232" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D232" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D242" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D242" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D242" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D252" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D252" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D252" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D262" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D262" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D262" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D272" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D272" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D272" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D282" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D282" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D282" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D292" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D292" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D292" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D302" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D302" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D302" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D312" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D312" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D312" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D322" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D322" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D322" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J307" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U303" pin="41" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/Logic/Col2">
+      <node ref="D203" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D203" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D203" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D213" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D213" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D213" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D223" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D223" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D223" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D233" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D233" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D233" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D243" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D243" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D243" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D253" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D253" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D253" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D263" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D263" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D263" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D273" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D273" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D273" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D283" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D283" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D283" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D293" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D293" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D293" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D303" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D303" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D303" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D313" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D313" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D313" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D323" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D323" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D323" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J307" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U303" pin="42" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/Logic/Col3">
+      <node ref="D204" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D204" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D204" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D214" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D214" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D214" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D224" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D224" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D224" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D234" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D234" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D234" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D244" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D244" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D244" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D254" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D254" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D254" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D264" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D264" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D264" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D274" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D274" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D274" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D284" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D284" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D284" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D294" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D294" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D294" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D304" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D304" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D304" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D314" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D314" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D314" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D324" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D324" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D324" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J307" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U303" pin="43" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/Logic/Col4">
+      <node ref="D205" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D205" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D205" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D215" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D215" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D215" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D225" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D225" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D225" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D235" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D235" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D235" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D245" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D245" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D245" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D255" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D255" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D255" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D265" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D265" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D265" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D275" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D275" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D275" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D285" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D285" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D285" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D295" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D295" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D295" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D305" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D305" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D305" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D315" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D315" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D315" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D325" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D325" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D325" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J307" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U303" pin="45" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/Logic/Col5">
+      <node ref="D206" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D206" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D206" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D216" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D216" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D216" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D226" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D226" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D226" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D236" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D236" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D236" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D246" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D246" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D246" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D256" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D256" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D256" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D266" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D266" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D266" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D276" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D276" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D276" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D286" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D286" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D286" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D296" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D296" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D296" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D306" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D306" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D306" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D316" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D316" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D316" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D326" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D326" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D326" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J307" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U303" pin="46" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/Logic/Col6">
+      <node ref="D207" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D207" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D207" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D217" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D217" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D217" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D227" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D227" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D227" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D237" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D237" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D237" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D247" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D247" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D247" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D257" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D257" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D257" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D267" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D267" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D267" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D277" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D277" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D277" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D287" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D287" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D287" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D297" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D297" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D297" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D307" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D307" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D307" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D317" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D317" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D317" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D327" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D327" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D327" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J307" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U303" pin="21" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/Logic/Col7">
+      <node ref="D208" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D208" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D208" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D218" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D218" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D218" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D228" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D228" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D228" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D238" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D238" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D238" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D248" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D248" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D248" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D258" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D258" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D258" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D268" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D268" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D268" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D278" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D278" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D278" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D288" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D288" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D288" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D298" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D298" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D298" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D308" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D308" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D308" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D318" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D318" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D318" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D328" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D328" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D328" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J307" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U303" pin="22" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/Logic/Col8">
+      <node ref="D209" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D209" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D209" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D219" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D219" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D219" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D229" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D229" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D229" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D239" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D239" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D239" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D249" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D249" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D249" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D259" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D259" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D259" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D269" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D269" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D269" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D279" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D279" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D279" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D289" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D289" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D289" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D299" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D299" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D299" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D309" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D309" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D309" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D319" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D319" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D319" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D329" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D329" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D329" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J307" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U303" pin="25" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/Logic/Col9">
+      <node ref="D210" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D210" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D210" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D220" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D220" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D220" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D230" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D230" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D230" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D240" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D240" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D240" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D250" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D250" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D250" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D260" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D260" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D260" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D270" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D270" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D270" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D280" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D280" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D280" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D290" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D290" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D290" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D300" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D300" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D300" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D310" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D310" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D310" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D320" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D320" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D320" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D330" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D330" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D330" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="J303" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J307" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U303" pin="26" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/Logic/G_Row0">
+      <node ref="D201" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D202" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D203" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D204" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D205" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D206" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D207" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D208" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D209" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D210" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="5" pinfunction="OUT0" pintype="output"/>
+    </net>
+    <net code="29" name="/Logic/G_Row1">
+      <node ref="D211" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D212" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D213" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D214" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D215" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D216" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D217" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D218" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D219" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D220" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="30" name="/Logic/G_Row2">
+      <node ref="D221" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D222" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D223" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D224" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D225" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D226" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D227" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D228" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D229" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D230" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="7" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="31" name="/Logic/G_Row3">
+      <node ref="D231" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D232" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D233" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D234" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D235" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D236" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D237" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D238" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D239" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D240" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="8" pinfunction="OUT3" pintype="output"/>
+    </net>
+    <net code="32" name="/Logic/G_Row4">
+      <node ref="D241" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D242" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D243" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D244" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D245" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D246" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D247" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D248" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D249" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D250" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="9" pinfunction="OUT4" pintype="output"/>
+    </net>
+    <net code="33" name="/Logic/G_Row5">
+      <node ref="D251" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D252" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D253" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D254" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D255" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D256" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D257" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D258" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D259" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D260" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="10" pinfunction="OUT5" pintype="output"/>
+    </net>
+    <net code="34" name="/Logic/G_Row6">
+      <node ref="D261" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D262" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D263" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D264" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D265" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D266" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D267" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D268" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D269" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D270" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="11" pinfunction="OUT6" pintype="output"/>
+    </net>
+    <net code="35" name="/Logic/G_Row7">
+      <node ref="D271" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D272" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D273" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D274" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D275" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D276" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D277" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D278" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D279" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D280" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="12" pinfunction="OUT7" pintype="output"/>
+    </net>
+    <net code="36" name="/Logic/G_Row8">
+      <node ref="D281" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D282" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D283" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D284" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D285" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D286" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D287" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D288" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D289" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D290" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="13" pinfunction="OUT8" pintype="output"/>
+    </net>
+    <net code="37" name="/Logic/G_Row9">
+      <node ref="D291" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D292" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D293" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D294" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D295" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D296" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D297" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D298" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D299" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D300" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="14" pinfunction="OUT9" pintype="output"/>
+    </net>
+    <net code="38" name="/Logic/G_Row10">
+      <node ref="D301" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D302" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D303" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D304" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D305" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D306" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D307" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D308" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D309" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D310" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="15" pinfunction="OUT10" pintype="output"/>
+    </net>
+    <net code="39" name="/Logic/G_Row11">
+      <node ref="D311" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D312" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D313" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D314" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D315" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D316" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D317" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D318" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D319" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D320" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="16" pinfunction="OUT11" pintype="output"/>
+    </net>
+    <net code="40" name="/Logic/G_Row12">
+      <node ref="D321" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D322" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D323" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D324" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D325" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D326" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D327" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D328" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D329" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="D330" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="U305" pin="17" pinfunction="OUT12" pintype="output"/>
+    </net>
+    <net code="41" name="/Logic/LED_debug1">
+      <node ref="R312" pin="1" pintype="passive"/>
+      <node ref="U303" pin="10" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/Logic/LED_debug2">
+      <node ref="R313" pin="1" pintype="passive"/>
+      <node ref="U303" pin="11" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/Logic/RTC_bckUP">
+      <node ref="BT301" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U303" pin="1" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="44" name="/Logic/R_Bset">
+      <node ref="R316" pin="1" pintype="passive"/>
+      <node ref="TP305" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U306" pin="23" pinfunction="R-EXT" pintype="input"/>
+    </net>
+    <net code="45" name="/Logic/R_Gset">
+      <node ref="R315" pin="1" pintype="passive"/>
+      <node ref="TP304" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U305" pin="23" pinfunction="R-EXT" pintype="input"/>
+    </net>
+    <net code="46" name="/Logic/R_Row0">
+      <node ref="D201" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D202" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D203" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D204" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D205" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D206" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D207" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D208" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D209" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D210" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="5" pinfunction="OUT0" pintype="output"/>
+    </net>
+    <net code="47" name="/Logic/R_Row1">
+      <node ref="D211" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D212" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D213" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D214" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D215" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D216" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D217" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D218" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D219" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D220" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="48" name="/Logic/R_Row2">
+      <node ref="D221" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D222" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D223" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D224" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D225" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D226" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D227" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D228" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D229" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D230" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="7" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="49" name="/Logic/R_Row3">
+      <node ref="D231" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D232" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D233" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D234" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D235" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D236" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D237" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D238" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D239" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D240" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="8" pinfunction="OUT3" pintype="output"/>
+    </net>
+    <net code="50" name="/Logic/R_Row4">
+      <node ref="D241" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D242" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D243" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D244" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D245" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D246" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D247" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D248" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D249" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D250" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="9" pinfunction="OUT4" pintype="output"/>
+    </net>
+    <net code="51" name="/Logic/R_Row5">
+      <node ref="D251" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D252" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D253" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D254" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D255" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D256" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D257" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D258" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D259" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D260" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="10" pinfunction="OUT5" pintype="output"/>
+    </net>
+    <net code="52" name="/Logic/R_Row6">
+      <node ref="D261" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D262" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D263" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D264" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D265" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D266" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D267" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D268" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D269" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D270" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="11" pinfunction="OUT6" pintype="output"/>
+    </net>
+    <net code="53" name="/Logic/R_Row7">
+      <node ref="D271" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D272" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D273" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D274" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D275" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D276" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D277" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D278" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D279" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D280" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="12" pinfunction="OUT7" pintype="output"/>
+    </net>
+    <net code="54" name="/Logic/R_Row8">
+      <node ref="D281" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D282" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D283" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D284" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D285" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D286" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D287" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D288" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D289" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D290" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="13" pinfunction="OUT8" pintype="output"/>
+    </net>
+    <net code="55" name="/Logic/R_Row9">
+      <node ref="D291" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D292" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D293" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D294" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D295" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D296" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D297" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D298" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D299" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D300" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="14" pinfunction="OUT9" pintype="output"/>
+    </net>
+    <net code="56" name="/Logic/R_Row10">
+      <node ref="D301" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D302" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D303" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D304" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D305" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D306" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D307" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D308" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D309" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D310" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="15" pinfunction="OUT10" pintype="output"/>
+    </net>
+    <net code="57" name="/Logic/R_Row11">
+      <node ref="D311" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D312" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D313" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D314" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D315" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D316" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D317" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D318" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D319" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D320" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="16" pinfunction="OUT11" pintype="output"/>
+    </net>
+    <net code="58" name="/Logic/R_Row12">
+      <node ref="D321" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D322" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D323" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D324" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D325" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D326" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D327" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D328" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D329" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="D330" pin="6" pinfunction="BA" pintype="passive"/>
+      <node ref="U304" pin="17" pinfunction="OUT12" pintype="output"/>
+    </net>
+    <net code="59" name="/Logic/R_Rset">
+      <node ref="R314" pin="1" pintype="passive"/>
+      <node ref="TP303" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U304" pin="23" pinfunction="R-EXT" pintype="input"/>
+    </net>
+    <net code="60" name="/Logic/Reset">
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="SW301" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U303" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="61" name="/Logic/UART2_RX">
+      <node ref="J306" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U303" pin="13" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="/Logic/UART2_TX">
+      <node ref="J306" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U303" pin="12" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="/Logic/~{OE}">
+      <node ref="J308" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U303" pin="14" pinfunction="PA4" pintype="bidirectional"/>
+      <node ref="U304" pin="21" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U305" pin="21" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U306" pin="21" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="64" name="BOOT0">
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="U303" pin="44" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="65" name="BOOT1">
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="U303" pin="20" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="DE">
+      <node ref="R311" pin="1" pintype="passive"/>
+      <node ref="U301" pin="3" pinfunction="DE" pintype="input"/>
+      <node ref="U303" pin="33" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="GNDD">
+      <node ref="BT301" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="C306" pin="2" pintype="passive"/>
+      <node ref="C307" pin="2" pintype="passive"/>
+      <node ref="C308" pin="2" pintype="passive"/>
+      <node ref="C309" pin="2" pintype="passive"/>
+      <node ref="C310" pin="2" pintype="passive"/>
+      <node ref="C311" pin="2" pintype="passive"/>
+      <node ref="C312" pin="2" pintype="passive"/>
+      <node ref="C313" pin="2" pintype="passive"/>
+      <node ref="C314" pin="2" pintype="passive"/>
+      <node ref="C315" pin="2" pintype="passive"/>
+      <node ref="C316" pin="2" pintype="passive"/>
+      <node ref="D331" pin="3" pinfunction="common" pintype="input"/>
+      <node ref="D332" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D333" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J301" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J302" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J302" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J304" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J305" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J305" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="R310" pin="2" pintype="passive"/>
+      <node ref="R311" pin="2" pintype="passive"/>
+      <node ref="R314" pin="2" pintype="passive"/>
+      <node ref="R315" pin="2" pintype="passive"/>
+      <node ref="R316" pin="2" pintype="passive"/>
+      <node ref="SW301" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U301" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U302" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U303" pin="23" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U303" pin="35" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U303" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U303" pin="8" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U304" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U305" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U306" pin="1" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(D332-Pad2)">
+      <node ref="D332" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R312" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D333-Pad2)">
+      <node ref="D333" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R313" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(J305-Pad2)">
+      <node ref="J305" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(J305-Pad5)">
+      <node ref="J305" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(R307-Pad2)">
+      <node ref="R307" pin="2" pintype="passive"/>
+      <node ref="U301" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="Net-(R308-Pad2)">
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="U301" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="Net-(TP306-Pad1)">
+      <node ref="TP306" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U304" pin="22" pinfunction="SDO" pintype="output"/>
+      <node ref="U305" pin="2" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(TP307-Pad1)">
+      <node ref="TP307" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U305" pin="22" pinfunction="SDO" pintype="output"/>
+      <node ref="U306" pin="2" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="76" name="SDO">
+      <node ref="J307" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U306" pin="22" pinfunction="SDO" pintype="output"/>
+    </net>
+    <net code="77" name="SWD_CLK">
+      <node ref="J304" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U303" pin="37" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="SWD_O">
+      <node ref="J304" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U303" pin="34" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="S_CLK">
+      <node ref="J303" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J307" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J308" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U303" pin="17" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U304" pin="3" pinfunction="CLK" pintype="input"/>
+      <node ref="U305" pin="3" pinfunction="CLK" pintype="input"/>
+      <node ref="U306" pin="3" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="80" name="S_DATA">
+      <node ref="J303" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J308" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U303" pin="16" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U304" pin="2" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="81" name="S_LE">
+      <node ref="J303" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J307" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J308" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U303" pin="15" pinfunction="PA5" pintype="bidirectional"/>
+      <node ref="U304" pin="4" pinfunction="LE" pintype="input"/>
+      <node ref="U305" pin="4" pinfunction="LE" pintype="input"/>
+      <node ref="U306" pin="4" pinfunction="LE" pintype="input"/>
+    </net>
+    <net code="82" name="UART1_RX_R">
+      <node ref="R309" pin="2" pintype="passive"/>
+      <node ref="U301" pin="1" pinfunction="R" pintype="output"/>
+      <node ref="U303" pin="31" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="UART1_TX_D">
+      <node ref="U301" pin="4" pinfunction="D" pintype="input"/>
+      <node ref="U303" pin="30" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="Xtal_IN">
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="U303" pin="5" pinfunction="PD0" pintype="input"/>
+      <node ref="Y301" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="85" name="Xtal_OUT">
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="U303" pin="6" pinfunction="PD1" pintype="input"/>
+      <node ref="Y301" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(J303-Pad4)">
+      <node ref="J303" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(J303-Pad5)">
+      <node ref="J303" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(J303-Pad6)">
+      <node ref="J303" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(J307-Pad4)">
+      <node ref="J307" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(J307-Pad5)">
+      <node ref="J307" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(J307-Pad6)">
+      <node ref="J307" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(U303-Pad2)">
+      <node ref="U303" pin="2" pinfunction="PC13" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(U303-Pad3)">
+      <node ref="U303" pin="3" pinfunction="PC14" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(U303-Pad4)">
+      <node ref="U303" pin="4" pinfunction="PC15" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(U303-Pad18)">
+      <node ref="U303" pin="18" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="unconnected-(U303-Pad19)">
+      <node ref="U303" pin="19" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(U303-Pad27)">
+      <node ref="U303" pin="27" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(U303-Pad28)">
+      <node ref="U303" pin="28" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(U303-Pad29)">
+      <node ref="U303" pin="29" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(U303-Pad38)">
+      <node ref="U303" pin="38" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(U303-Pad39)">
+      <node ref="U303" pin="39" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="unconnected-(U304-Pad18)">
+      <node ref="U304" pin="18" pinfunction="OUT13" pintype="output+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U304-Pad19)">
+      <node ref="U304" pin="19" pinfunction="OUT14" pintype="output+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U304-Pad20)">
+      <node ref="U304" pin="20" pinfunction="OUT15" pintype="output+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U305-Pad18)">
+      <node ref="U305" pin="18" pinfunction="OUT13" pintype="output+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U305-Pad19)">
+      <node ref="U305" pin="19" pinfunction="OUT14" pintype="output+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U305-Pad20)">
+      <node ref="U305" pin="20" pinfunction="OUT15" pintype="output+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U306-Pad18)">
+      <node ref="U306" pin="18" pinfunction="OUT13" pintype="output+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U306-Pad19)">
+      <node ref="U306" pin="19" pinfunction="OUT14" pintype="output+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U306-Pad20)">
+      <node ref="U306" pin="20" pinfunction="OUT15" pintype="output+no_connect"/>
+    </net>
+    <net code="111" name="~{RE}">
+      <node ref="R310" pin="1" pintype="passive"/>
+      <node ref="U301" pin="2" pinfunction="~{RE}" pintype="input"/>
+      <node ref="U303" pin="32" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
