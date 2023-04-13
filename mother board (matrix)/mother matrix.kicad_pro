@@ -322,6 +322,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "3c2f5eee-c9bc-4aef-837d-ff557427574a",
+      ""
+    ],
+    [
+      "daa6e507-47a0-4c85-8735-56ec4e3c2128",
+      "Logic"
+    ],
+    [
+      "801fa9b9-3d83-4122-9db9-6b0bbf1cbd4d",
+      "Diodes"
+    ]
+  ],
   "text_variables": {}
 }

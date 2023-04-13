@@ -1,5 +1,48 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3c2f5eee-c9bc-4aef-837d-ff557427574a)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 185.42 93.98) (size 45.72 59.69) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 801fa9b9-3d83-4122-9db9-6b0bbf1cbd4d)
+    (property "Sheetname" "Diodes" (at 185.42 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Diodes.kicad_sch" (at 185.42 154.2546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mother matrix"
+        (path "/3c2f5eee-c9bc-4aef-837d-ff557427574a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 85.09 85.09) (size 55.88 77.47) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid daa6e507-47a0-4c85-8735-56ec4e3c2128)
+    (property "Sheetname" "Logic" (at 85.09 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Logic.kicad_sch" (at 85.09 163.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mother matrix"
+        (path "/3c2f5eee-c9bc-4aef-837d-ff557427574a" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
