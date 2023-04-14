@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "SM16206")(type "KiCad")(uri "/home/sp6gk/Documents/InterElcom/LED_panel_matrix/EDA/Libraries/SM16206.kicad_sym")(options "")(descr ""))
-  (lib (name "QS6K1")(type "KiCad")(uri "/home/sp6gk/Documents/InterElcom/LED_panel_matrix/EDA/Libraries/QS6K1.kicad_sym")(options "")(descr ""))
-)
