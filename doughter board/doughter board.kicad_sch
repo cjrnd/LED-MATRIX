@@ -3417,13 +3417,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 19.05 137.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81bfba30-bb79-4177-a5f1-6c8a70bcede5)
-    (property "Reference" "J6" (at 19.05 128.27 0)
+    (property "Reference" "J3" (at 19.05 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x05" (at 19.05 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 19.05 137.16 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (at 19.05 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 19.05 137.16 0)
@@ -3437,7 +3437,7 @@
     (instances
       (project "doughter board"
         (path "/1ea1a0ba-623e-4676-8b59-1c632e7c560a"
-          (reference "J6") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
